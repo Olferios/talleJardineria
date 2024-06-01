@@ -158,7 +158,7 @@ FROM cliente c
 JOIN ciudad ci ON ci.id = c.fkIdCiudad
 WHERE c.fkIdCiudad = 6 AND (c.fkCodigoEmpleado = 11 OR c.fkCodigoEmpleado = 30);
 ```
-Consultas multitabla (Composición interna)
+****Consultas multitabla (Composición interna)****
 Resuelva todas las consultas utilizando la sintaxis de SQL1 y SQL2. Las consultas con
 sintaxis de SQL2 se deben resolver con INNER JOIN y NATURAL JOIN.
 
